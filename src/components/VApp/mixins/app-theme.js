@@ -103,7 +103,7 @@ export default {
 
   methods: {
     applyTheme () {
-      if (this.style) this.style.innerHTML = this.generatedStyles
+      if (this.style) this.style.innerText = this.generatedStyles
     },
     genStyle () {
       let style = document.getElementById('vuetify-theme-stylesheet')
